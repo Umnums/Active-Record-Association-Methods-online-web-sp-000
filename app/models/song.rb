@@ -19,7 +19,7 @@ class Song < ActiveRecord::Base
     end
 
   end
-  
+
   def all_artist_names
     names = self.artists
     names.map {|x| x.name}
